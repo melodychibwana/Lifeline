@@ -1,0 +1,70 @@
+* {
+    /* Your existing global styles */
+}
+
+.main {
+    height: 470px;
+    padding: 20px;
+}
+
+#outer {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Increased spread for a stronger shadow */
+}
+
+#inp-text {
+    border-radius: 20px; /* To make it round */
+    box-shadow: inset 0px 0px 5px -2px rgb(160, 160, 160);
+}
+
+.input-group-prepend img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+    border-radius: 50%;
+}
+
+#send {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#inp-text {
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 5px -2px rgb(160, 160, 160);
+}
+
+.main::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    box-shadow: inset 0px 0px 5px -2px rgb(160, 160, 160);
+}
+
+.main::-webkit-scrollbar-thumb {
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.main::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(14, 129, 243);
+}
+
+.response,
+.request {
+    width: fit-content;
+    background-color: #fff; /* Set background color */
+    max-width: 75%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px -6px #000;
+    z-index: 1;
+    position: relative; /* Add position relative */
+}
+
+#outer {
+    box-shadow: 5px 5px 40px -15px rgb(151, 151, 151);
+}
+
+#send {
+    border-radius: 0px 0px 20px;
+}
